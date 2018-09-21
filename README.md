@@ -30,8 +30,17 @@ $ wine --version
 
 ## Xtreme Download Manager Updated With Fresh GUI
 
+Download XDM .zip file from this link https://sourceforge.net/projects/xdman/files/ on the Desktop. Extract it by double-clicking on it. Open terminal. Navigate to the User's Desktop and further navigate to the "xdm-2018-x64" folder.
+
+Type the following command in Terminal and press Enter key:
+
 ```
-sudo add-apt-repository ppa:noobslab/apps
-sudo apt-get update
-sudo apt-get install xdman
+sudo ./install.sh
+```
+
+**Uninstall:**
+
+The software offers an uninstall script in the installation directory. Simply open terminal (Ctrl+Alt+T) and run command to remove the software:
+```
+sudo /opt/xdman/uninstall.sh
 ```
