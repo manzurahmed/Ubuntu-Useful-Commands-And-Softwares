@@ -27,3 +27,11 @@ Check your version once the Wine installation is complete:
 ```
 $ wine --version
 ```
+
+## Xtreme Download Manager Updated With Fresh GUI
+
+```
+sudo add-apt-repository ppa:noobslab/apps
+sudo apt-get update
+sudo apt-get install xdman
+```
