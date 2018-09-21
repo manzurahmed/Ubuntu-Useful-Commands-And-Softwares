@@ -15,3 +15,15 @@ To revert it back (enable animation again), just change the command to:
 ```
 $ gsettings set org.gnome.desktop.interface enable-animations true
 ```
+
+## Install Wine
+
+```
+$ sudo apt install wine64
+```
+
+Check your version once the Wine installation is complete: 
+
+```
+$ wine --version
+```
