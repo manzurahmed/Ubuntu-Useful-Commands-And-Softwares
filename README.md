@@ -1,4 +1,10 @@
-# Ubuntu-Useful-Commands
+# Ubuntu Useful Commands And Softwares
+
+
+
+### List of Softwares
+
+1. Pick - A colour picker for Ubuntu, elementary, and other Linux OSes: https://kryogenix.org/code/pick/
 
 ### Faster app menu in Ubuntu 18.04
 
