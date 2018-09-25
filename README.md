@@ -8,15 +8,18 @@
 2. FileZilla for Ubuntu: https://filezilla-project.org/download.php?platform=linux
 3. Putty:
 
-```
-$ sudo apt-get update
-$ sudo apt-get install -y putty
-```
+  ```
+  $ sudo apt-get update
+  $ sudo apt-get install -y putty
+  ```
 4. Koala - Less, Sass, Compass and CoffeeScript compilation: http://koala-app.com/
 5. Zeal - Offline documentation: https://zealdocs.org/
 6. GIMP - Image manipulation software
 7. LibreOffice - Microsoft Office alternative
 8. Visual Studio Code on Linux: https://code.visualstudio.com/docs/setup/linux
+9. Image Viewer:
+  - xnView
+  - nomacs
 
 ### Faster app menu in Ubuntu 18.04
 
