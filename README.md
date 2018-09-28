@@ -20,6 +20,7 @@
 9. Image Viewer:
   - xnView
   - nomacs
+10. Google Chrome
 
 ### Faster app menu in Ubuntu 18.04
 
@@ -75,3 +76,12 @@ Download the 64-bit .deb package from Koala's official website: http://koala-app
 sudo dpkg -r koala
 ```
 
+## Google Chrome
+
+- Go to https://www.google.com/chrome. Click the Download Chrome button.
+- Then select the first option (64 bit .deb for Debian/Ubuntu), click Accept and Install.
+- When Firefox asks you how to open this deb file, choose the default option to open it in Ubuntu Software (formerly Ubuntu Software Center).
+- If you choose the first option, Google Chrome deb package will be downloaded to /tmp/mozilla_$username directory. Once the download is complete, Ubuntu Software will automatically open. Click the Install button to install google-chrome-stable to Ubuntu 18.04.
+- Because software installation on Linux requires root privilege, so you have to enter your password to authenticate.
+
+Once the installation is complete, you can start Chrome browser from applications menu
