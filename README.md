@@ -65,3 +65,13 @@ The software offers an uninstall script in the installation directory. Simply op
 ```
 sudo /opt/xdman/uninstall.sh
 ```
+
+## Install and Uninstall Koala
+
+Download the 64-bit .deb package from Koala's official website: http://koala-app.com/. Double-click the .deb package file to start the automated installer. Finish installation.
+
+**Uninstall Koala**
+```
+sudo dpkg -r koala
+```
+
