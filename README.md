@@ -1,26 +1,27 @@
 # Ubuntu Useful Commands And Softwares
 
 
-
 ### List of Softwares
 
-1. Pick - A colour picker for Ubuntu, elementary, and other Linux OSes: https://kryogenix.org/code/pick/
-2. FileZilla for Ubuntu: https://filezilla-project.org/download.php?platform=linux
-3. Putty:
+- Pick - A colour picker for Ubuntu, elementary, and other Linux OSes: https://kryogenix.org/code/pick/
+- FileZilla for Ubuntu: https://filezilla-project.org/download.php?platform=linux
+- SSH: Putty:
 
   ```
   $ sudo apt-get update
   $ sudo apt-get install -y putty
   ```
-4. Koala - Less, Sass, Compass and CoffeeScript compilation: http://koala-app.com/
-5. Zeal - Offline documentation: https://zealdocs.org/
-6. GIMP - Image manipulation software
-7. LibreOffice - Microsoft Office alternative
-8. Visual Studio Code on Linux: https://code.visualstudio.com/docs/setup/linux
-9. Image Viewer:
-  - xnView
-  - nomacs
-10. Google Chrome
+
+- Koala - Less, Sass, Compass and CoffeeScript compilation: http://koala-app.com/
+- Zeal Docs - Offline documentation: https://zealdocs.org/
+- GIMP Image manipulation: https://www.gimp.org/downloads/
+- Vector Image Manipulation: Inkspace: https://inkscape.org/en/
+- LibreOffice - Microsoft Office alternative: https://www.libreoffice.org/
+- Visual Studio Code on Linux: https://code.visualstudio.com/docs/setup/linux
+- Image Viewer: xnView: https://www.xnview.com/en/
+- Google Chrome: https://google-chrome.en.uptodown.com/ubuntu
+- Download Manager: uGet: https://ugetdm.com/
+- Remote Desktop - AnyDesk: https://anydesk.com/platforms/linux
 
 ### Faster app menu in Ubuntu 18.04
 
