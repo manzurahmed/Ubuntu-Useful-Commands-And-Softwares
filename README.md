@@ -22,6 +22,11 @@
 - Google Chrome: https://google-chrome.en.uptodown.com/ubuntu
 - Download Manager: uGet: https://ugetdm.com/
 - Remote Desktop - AnyDesk: https://anydesk.com/platforms/linux
+- Bangla Keyboard: Avro Keyboard
+   How to install:
+   1. http://linux.omicronlab.com/
+   2. https://www.youtube.com/watch?v=0jYQZ6PSpbs
+   3. https://ottopor.com/en/it/unijoy-layout-in-ubuntu-gnome-17/
 
 ### Faster app menu in Ubuntu 18.04
 
