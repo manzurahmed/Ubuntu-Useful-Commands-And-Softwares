@@ -4,4 +4,4 @@ https://askubuntu.com/questions/1035875/installing-avro-in-18-04-lts
 
 Avro download link: https://github.com/maateen/avro/releases
 
-ibus-avro: http://linux.omicronlab.com/
+Avro Official Website (ibus-avro): http://linux.omicronlab.com/
