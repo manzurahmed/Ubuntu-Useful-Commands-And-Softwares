@@ -14,5 +14,5 @@ wget https://www.apachefriends.org/xampp-files/7.2.12/xampp-linux-x64-7.2.12-0-i
 ### Give the execution permission for downloaded xampp file
 ```
 chmod +x xampp-linux-x64-7.2.4-0-installer.run
-./xampp-linux-x64-7.2.4-0-installer.run
+sudo ./xampp-linux-x64-7.2.4-0-installer.run
 ```
