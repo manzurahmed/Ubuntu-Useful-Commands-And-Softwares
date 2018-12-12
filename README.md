@@ -91,3 +91,7 @@ sudo dpkg -r koala
 - Because software installation on Linux requires root privilege, so you have to enter your password to authenticate.
 
 Once the installation is complete, you can start Chrome browser from applications menu
+
+## DU Meter
+
+Open "Ubuntu Software", type "netspeed" and press the Enter key. Follow instructions to finish installation.
