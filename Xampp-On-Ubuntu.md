@@ -19,10 +19,11 @@ sudo ./xampp-linux-x64-7.2.4-0-installer.run
 ```
 
 ## WORDPRESS ASKING FOR LOCAL FTP CREDENTIALS ON XAMPP
-
+```
 $ cd /opt/lampp
 $ sudo chown -R daemon htdocs
 $ sudo chmod -R g+w htdocs
+```
 
 ### More on Permission
 
