@@ -18,7 +18,7 @@
 - Vector Image Manipulation: Inkspace: https://inkscape.org/en/
 - LibreOffice - Microsoft Office alternative: https://www.libreoffice.org/
 - Visual Studio Code on Linux: https://code.visualstudio.com/docs/setup/linux
-- Image Viewer: xnView: https://www.xnview.com/en/
+- Image Viewer: xnView: https://www.xnview.com/en/xnviewmp/#downloads
 - Google Chrome: https://google-chrome.en.uptodown.com/ubuntu
 - Download Manager: uGet: https://ugetdm.com/
 - Remote Desktop - AnyDesk: https://anydesk.com/platforms/linux
