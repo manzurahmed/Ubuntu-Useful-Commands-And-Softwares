@@ -28,3 +28,5 @@ $ sudo chmod -R g+w htdocs
 ### More on Permission
 
 https://unix.stackexchange.com/questions/276142/touch-cannot-touch-test-permission-denied
+https://www.computernetworkingnotes.com/ubuntu-linux-tutorials/how-to-fix-permission-of-htdocs-folder-in-ubuntu-linux.html
+
