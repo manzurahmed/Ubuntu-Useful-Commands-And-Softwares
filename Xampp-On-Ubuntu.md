@@ -84,3 +84,11 @@ We can also verify the starting of XAMPP by accessing following URL in web brows
 ```
 http://localhost
 ```
+
+## Uninstall Xampp
+
+While staying in "/opt/lampp", type in the following command to uninstall Xampp:
+
+```
+sudo ./uninstall
+```
