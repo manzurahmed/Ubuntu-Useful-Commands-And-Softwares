@@ -32,3 +32,55 @@ https://www.computernetworkingnotes.com/ubuntu-linux-tutorials/how-to-fix-permis
 
 https://www.computernetworkingnotes.com/ubuntu-linux-tutorials/how-to-start-xampp-automatically-in-ubuntu-linux.html
 
+## How to start XAMPP Automatically in Ubuntu Linux
+
+Since XAMPP is the third party software, Ubuntu does not start it in boot process. Before we use it, we have to start it manually with following command to start Xampp manually.
+
+```
+sudo /opt/lampp/lampp start
+```
+
+### Creating a script to stat XAMPP automatically
+
+```
+sudo vi /etc/init.d/lampp
+```
+
+```
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides: lampp
+# Required-Start:    $local_fs $syslog $remote_fs dbus
+# Required-Stop:     $local_fs $syslog $remote_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start lampp
+### END INIT INFO
+/opt/lampp/lampp start
+```
+
+Save the file. Then run the following command:
+
+```
+sudo chmod +x /etc/init.d/lampp
+```
+
+Then, run the following command:
+
+```
+sudo update-rc.d lampp defaults
+```
+
+### Testing
+
+```
+systemctl list-units --type service |grep lampp
+```
+
+XAMPP uses lampp service to control all its operation in Ubuntu.
+
+We can also verify the starting of XAMPP by accessing following URL in web browser
+
+```
+http://localhost
+```
