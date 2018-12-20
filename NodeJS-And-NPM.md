@@ -20,3 +20,20 @@ To check which version of Node.js you have installed after these initial steps, 
 ```
 nodejs -v
 ```
+
+# Uninstall NodeJS and NPM
+
+To remove the distro-stable version, type the following:
+```
+sudo apt remove nodejs
+```
+This command will remove the package and retain the configuration files. These may be of use to you if you intend to install the package again at a later point. If you don’t want to save the configuration files for later use, then run the following:
+```
+sudo apt purge nodejs
+```
+This will uninstall the package and remove the configuration files associated with it.
+
+As a final step, you can remove any unused packages that were automatically installed with the removed package:
+```
+sudo apt autoremove
+```
