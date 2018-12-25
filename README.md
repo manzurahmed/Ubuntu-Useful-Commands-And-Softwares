@@ -20,6 +20,7 @@
 - Visual Studio Code on Linux: https://code.visualstudio.com/docs/setup/linux
 - Image Viewer: xnView: https://www.xnview.com/en/xnviewmp/#downloads
 - Google Chrome: https://google-chrome.en.uptodown.com/ubuntu
+- Firefox Quantum: Always install from "Ubuntu Software"
 - Download Manager: uGet: https://ugetdm.com/
 - Remote Desktop - AnyDesk: https://anydesk.com/platforms/linux
 - Bangla Keyboard: Avro Keyboard
