@@ -18,6 +18,24 @@ chmod +x xampp-linux-x64-7.2.4-0-installer.run
 sudo ./xampp-linux-x64-7.2.4-0-installer.run
 ```
 
+# পারমিশন সমস্যা দূর করা
+
+উবুন্টুকে Xampp ইন্সটল হয় /opt/lampp/htdocs ফোল্ডারে। ইন্সটল হওয়ার পরে এর owner এবং group থাকে যথাক্রমে root এবং root হিসাবে।
+
+Xampp ইন্সটল হওয়ার পরে www-data নামে একটি গ্রুপ তৈরী হয়।
+
+ধরি, আমার উইজার এর নাম web001 ছিল। htdocs ফোল্ডারের owner এবং group পারমিশন পরিবর্তন করে যথাক্রমে web001 এবং www-data করে দিব।
+
+```
+chown -R web001:www-data htdocs
+```
+
+WordPress বা Joomla ইন্সটল করার পরে ঐ সমস্ত ফোল্ডারের পারমিশন দিতে হবে web001 অর্থাৎ আমার ইউজারকে।
+
+```
+chown -R web001:web001 htdocs
+```
+
 ## WORDPRESS ASKING FOR LOCAL FTP CREDENTIALS ON XAMPP
 ```
 cd /opt/lampp
