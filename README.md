@@ -4,7 +4,10 @@
 ### List of Softwares
 
 - Pick - A colour picker for Ubuntu, elementary, and other Linux OSes: https://kryogenix.org/code/pick/
-- FileZilla for Ubuntu: https://filezilla-project.org/download.php?platform=linux
+- FileZilla for Ubuntu: Install from Terminal. To run Filezilla, type "filezilla" and hit Enter key, OR, run from Start.
+```
+sudo apt install filezilla
+```
 - SSH: Putty:
 
   ```
