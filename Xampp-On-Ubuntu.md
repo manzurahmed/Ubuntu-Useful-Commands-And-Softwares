@@ -103,6 +103,38 @@ We can also verify the starting of XAMPP by accessing following URL in web brows
 http://localhost
 ```
 
+## Running apache (httpd) process under the user account
+
+If you want to ensure that you do not face any further permission related issue while running and customizing XAMPP web server, you should run apache process under your own user account. This simple fix removes several permission related issues.
+
+For this, we have to modify the /opt/lampp/etc/httpd.conf file. Before we modify this file, let’s take the backup of current file.
+
+```
+sudo cp /opt/lampp/etc/httpd.conf /opt/lampp/etc/httpd.conf.bak
+ls /opt/lampp/etc/httpd*
+```
+
+Now open this file for editing
+```
+sudo gedit /opt/lampp/etc/httpd.conf
+```
+
+Now locate following directives
+
+```
+User daemon
+Group daemon
+```
+
+Replace **daemon** value with your username and group name and save the file:
+
+```
+User manzur
+Group manzur
+```
+
+Once file is saved, restart the XAMPP and verify that all services are started properly
+
 ## Uninstall Xampp
 
 While staying in "/opt/lampp", type in the following command to uninstall Xampp:
